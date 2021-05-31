@@ -9,3 +9,14 @@ The following environment is required in order to run the project:
  pgAdmin 4 (v.4)
  PostgreSQL with PL/pgSQL installed ( recommended: 9.5 or higher )
  Any updated web browser. ( Recommended: Firefox or Chrome )
+
+How to Run:
+ Setup the environment properly.
+ Copy the folder named ‘pizzaworld’ to the ‘htdocs’ folder. ( C:\xampp\htdocs )
+ Run the xampp, strat Apache server.
+ Run pgAdmin 4 v4 from the start menu. Open the server
+ Right click on the database named ‘postgres’ and click restore.
+ Brows ‘postgres.sql’ file from the project folder and load it to the database.
+ Go to new tab of the browser
+ Write http://localhost/pizzaworld/homepage.php in the address bar.
+ To enter into the baker menu, Username : baker Password: baker
