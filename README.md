@@ -13,6 +13,8 @@ The following environment is required in order to run the project:
 
 ## How to Run:
 
+In order to run this project in your local machine:
+
 - Setup the environment properly.
 - Copy the folder named ‘pizzaworld’ to the ‘htdocs’ folder. ( C:\xampp\htdocs )
 - Run the xampp, strat Apache server.
