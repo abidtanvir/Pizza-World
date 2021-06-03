@@ -23,4 +23,5 @@ In order to run this project in your local machine:
 - Brows ‘postgres.sql’ file from the project folder and load it to the database.
 - Go to new tab of the browser
 - Write http://localhost/pizzaworld/homepage.php in the address bar.
-- To enter into the baker menu, Username : baker Password: baker
+- To enter into the baker menu, 
+-- Username : baker Password: baker
