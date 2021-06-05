@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
     <div class="w3-right w3-hide-small">
       <a href="customPizza.php" class="w3-bar-item w3-button">Order Your Pizza</a>
 	  <a href="bakerLogin.php" class="w3-bar-item w3-button">Baker</a>
-      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact Us</a>
     </div>
   </div>
 </div>
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 
 <!-- Footer -->
 <footer class="w3-center w3-light-grey w3-padding-32">
-  <p>All Rights Reserved: S M Tanvir Abid</p>
+  <p>All Rights Reserved: S M Tanvir Abid. </p>
 </footer>
 
 </body>
