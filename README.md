@@ -24,5 +24,5 @@ In order to run this project in your local machine:
 - Go to new tab of the browser
 - Write http://localhost/pizzaworld/homepage.php in the address bar.
 - To enter into the baker menu, 
- - Username : baker 
- - Password: baker
+ * Username : baker 
+ * Password: baker
