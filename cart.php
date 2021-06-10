@@ -59,7 +59,12 @@ body, html {height: 100%}
 <div class="bgimg-1 ">  
 <div class="parallax"></div>
 
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <!--Cart Table-->
 <div class="w3-padding w3-display-middle">
 
