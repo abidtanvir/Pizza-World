@@ -8,7 +8,17 @@
 <style>
 body,h1 {font-family: "Times New Roman", Georgia, Serif;}
 body, html {height: 100%}
-
+.bgimg-1{
+  background-image: url('5.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  opacity: 80%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
   
   .parallax {
   /* The image used */
@@ -27,10 +37,6 @@ body, html {height: 100%}
 
 </style>
 <body>
-
-
-
- 
 
 
 <!-- Navbar (sit on top) -->
@@ -54,10 +60,6 @@ body, html {height: 100%}
 <br>
 <br>
  
-
-
-
-
 
 <!--Base Piza Table-->
 <div class="w3-padding w3-display-middle">
