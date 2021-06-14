@@ -8,6 +8,10 @@
    
    if( isset($_GET['delCartIngId']) )
 	{
+		$itemid = $_GET['delCartIngId'];
+		$sql = pg_query($db, "select  deletefromcart('$itemid');");
 		
+		
+		echo "<meta http-equiv='refresh' content='0;url=cart.php'>";
 	}
 	?>
