@@ -8,6 +8,15 @@
    
    if( isset($_GET['editorderId']) )
 	{
+		$order = $_GET['editorderId'];
 		
+		
+		$sql = pg_query($db, "select  updateorderstatus('$order');");
+		
+		$sql1 = pg_query($db, "select  delivered('$order');");
+		
+		
+		
+		echo "<meta http-equiv='refresh' content='0;url=bakerProfile.php'>";
 	}
 	?>
