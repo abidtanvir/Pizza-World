@@ -152,7 +152,18 @@ body, html {height: 100%}
 <div class="w3-container">
 <table class="w3-table-all w3-centered w3-opacity-min w3-card-4 ">
 
-    
+    <tr>
+      <th>Ingredient ID</th>
+	  <th>Ingredient Name</th>
+	  <th>Ingredient Price</th>
+	   <th>Ingredient Region</th>
+	  <th>Available Stock</th>
+	  <th>Ingredient Supplier</th>
+	  <th>Ingredient Status</th>
+	  <th>Remove Ingredient</th>
+	  <th>Operation</th>
+      
+    </tr>
 
 </div>
 
