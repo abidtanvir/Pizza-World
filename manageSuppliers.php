@@ -208,7 +208,21 @@ body, html {height: 100%}
 <br>
 
 
+<form class="w3-container w3-card-4 w3-opacity-min w3-light-grey" method="post">
+  <h2 class="w3-text-black">Add New Supplier</h2>
+       
+  <label class="w3-text-black"><b>Supplier Name</b></label>
+  <input class="w3-input w3-border" name="supname" type="text" required></p>
+<p>  
+  <select class="w3-select" name="supstatus">
+    <option value="" disabled selected >Choose Supplier Status </option>
+    <option value=true>Visible</option> 
+    <option value=false>Invisible</option>
+    </select>
+    <p>
+  <button class="w3-btn w3-black" name="submit">Add Supplier</button></p>
 
+</form>
 
 
 
