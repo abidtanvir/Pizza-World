@@ -9,7 +9,15 @@ $host        = "host = 127.0.0.1";
 
 
 
-
+if (isset($_REQUEST["submit"]))
+	{
+		
+		$sql2 = pg_query ($db, "select  deletecart();");
+		
+ 
+		 echo "<meta http-equiv='refresh' content='0;url=custompizza.php'>";
+		 
+	}
 
 
 ?>
