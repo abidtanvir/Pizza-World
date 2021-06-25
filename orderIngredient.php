@@ -124,7 +124,17 @@ body, html {height: 100%}
   // $quantity= $_GET['editIngStock'];
    
    
-  
+  if (isset($_REQUEST["submit"]))
+	{
+		$iid= $_REQUEST["ingname"];
+		$isupplier = $_REQUEST["ingsupplier"];
+		$iquantity = $_REQUEST["ingquantity"];
+		
+		
+		 $sql = pg_query($db, "select  orderingredient('$iid','$iquantity','$isupplier');"); 
+		 
+		 echo "<meta http-equiv='refresh' content='0;url=manageIngredients.php'>";
+	}
 	?>
 
 
