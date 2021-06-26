@@ -67,7 +67,18 @@ body, html {height: 100%}
 <div class="bgimg w3-display-container">  
 
 
-
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="homepage.php" class="w3-bar-item w3-button">PIZZA WORLD</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="customPizza.php" class="w3-bar-item w3-button">Order Your Pizza</a>
+	  <a href="bakerLogin.php" class="w3-bar-item w3-button">Baker</a>
+      <a href="homepage.php#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
 
 
 <br>
