@@ -121,7 +121,15 @@ body, html {height: 100%}
    $status= $_GET['editSupStatus'];
    
    
-  
+  if (isset($_REQUEST["submit"]))
+	{
+		$sname= $_REQUEST["supname"];
+	    $sstatus = $_REQUEST["supstatus"];
+		
+		 $sql = pg_query($db, "select  updatesupplier('$id','$sname','$sstatus');"); 
+		 
+		 echo "<meta http-equiv='refresh' content='0;url=manageSuppliers.php'>";
+	}
 	?>
 
 
