@@ -1,6 +1,6 @@
 # Pizza-World
 Pizza shop management system which works both for customer to order custom pizza and for owner to manage the whole system.
-The system is built using HTML, W3.CSS, PHP and JavaScript. PostgreSQL is used as database and PL/pgSQL is used as the backend logic.
+The system is built using HTML, W3.CSS, PHP and JavaScript. PostgreSQL is used as database and PL/pgSQL is used as the backend language for logic.
 
 ## Prerequisites
 
